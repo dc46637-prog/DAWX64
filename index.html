@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Permite utilizar caracteres como á, é, í, ó y ñ -->
+    <meta charset="UTF-8">
+
+    <!-- Hace que la página sea adaptable a celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título de la pestaña -->
+    <title>80s Cinema</title>
+
+    <!-- Conectamos el HTML con el archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         MENÚ DE NAVEGACIÓN
+         ===================================================== -->
+
+    <header>
+
+        <nav>
+
+            <!-- Nombre / logo de la página -->
+            <div class="logo">
+
+                80s <span>CINEMA</span>
+
+            </div>
+
+
+            <!-- Opciones del menú -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#peliculas">Películas</a>
+                </li>
+
+                <li>
+                    <a href="#decada">La década</a>
+                </li>
+
+                <li>
+                    <a href="#galeria">Galería</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =====================================================
+             PORTADA
+             ===================================================== -->
+
+        <section id="inicio" class="hero">
+
+            <!-- Contenido de la portada -->
+            <div class="hero-content">
+
+                <p class="mini-title">
+
+                    UNA DÉCADA • UNA GENERACIÓN • MUCHOS CLÁSICOS
+
+                </p>
+
+
+                <h1>
+
+                    Las mejores películas
+                    <span>de los 80s</span>
+
+                </h1>
+
+
+                <p class="hero-text">
+
+                    Descubre las películas que marcaron una generación
+                    y que siguen siendo recordadas hasta hoy.
+
+                </p>
+
+
+                <!-- Botón que lleva a las películas -->
+                <a href="#peliculas" class="cta-button">
+
+                    Ver películas →
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             PELÍCULAS
+             ===================================================== -->
+
+        <section id="peliculas">
+
+
+            <!-- Título de la sección -->
+
+            <div class="section-title">
+
+                <div>
+
+                    <p class="section-number">
+                        01 / COLECCIÓN
+                    </p>
+
+
+                    <h2>
+
+                        Películas
+                        <span>destacadas</span>
+
+                    </h2>
+
+
+                    <p class="section-description">
+
+                        Una selección de clásicos del cine
+                        de los años 80.
+
+                    </p>
+
+                </div>
+
+
+                <p class="total-peliculas">
+                    5 películas
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 TARJETAS DE PELÍCULAS
+                 ================================================= -->
+
+            <div class="peliculas-grid">
+
+
+                <!-- =================================================
+                     PELÍCULA 1
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/Pelicula1.jpg"
+                            alt="Teen Wolf"
+                        >
+
+                        <span class="año-badge">
+                            1985
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            COMEDIA • FANTASÍA
+                        </p>
+
+
+                        <h3>
+                            Teen Wolf
+                        </h3>
+
+
+                        <p>
+
+                            Scott Howard descubre que puede convertirse
+                            en hombre lobo y su vida escolar cambia
+                            por completo.
+
+                        </p>
+
+
+                        <!--
+                            details permite abrir y cerrar
+                            información adicional.
+                        -->
+
+                        <details>
+
+                            <summary>
+                                Ver detalles
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    Scott Howard es un estudiante
+                                    que descubre que puede
+                                    transformarse en hombre lobo.
+
+                                </p>
+
+                                <p>
+
+                                    Al principio utiliza su nueva
+                                    habilidad para ganar popularidad,
+                                    pero después aprende que ser él
+                                    mismo es mucho más importante.
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 2
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/Pelicula2.jpg"
+                            alt="Bloodsport"
+                        >
+
+                        <span class="año-badge">
+                            1988
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            ACCIÓN • ARTES MARCIALES
+                        </p>
+
+
+                        <h3>
+                            Bloodsport
+                        </h3>
+
+
+                        <p>
+
+                            Frank Dux participa en un torneo
+                            clandestino donde tendrá que
+                            demostrar su habilidad.
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                Ver detalles
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    Frank Dux viaja a Hong Kong
+                                    para participar en un torneo
+                                    clandestino de artes marciales.
+
+                                </p>
+
+                                <p>
+
+                                    Tendrá que enfrentarse a distintos
+                                    competidores y demostrar su
+                                    disciplina, resistencia y técnica.
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 3
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/pelicula3.jpg"
+                            alt="Los Cazafantasmas"
+                        >
+
+                        <span class="año-badge">
+                            1984
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            COMEDIA • FANTASÍA
+                        </p>
+
+
+                        <h3>
+                            Los Cazafantasmas
+                        </h3>
+
+
+                        <p>
+
+                            Un grupo de científicos decide combatir
+                            fenómenos sobrenaturales en Nueva York.
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                Ver detalles
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    Tres científicos especializados
+                                    en fenómenos paranormales crean
+                                    su propio negocio.
+
+                                </p>
+
+                                <p>
+
+                                    Su trabajo consiste en capturar
+                                    fantasmas, pero pronto descubren
+                                    una amenaza sobrenatural que
+                                    puede poner en peligro a la ciudad.
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 4
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/pelicula4.jpg"
+                            alt="Gremlins"
+                        >
+
+                        <span class="año-badge">
+                            1984
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            COMEDIA • TERROR
+                        </p>
+
+
+                        <h3>
+                            Gremlins
+                        </h3>
+
+
+                        <p>
+
+                            Una pequeña criatura se convierte
+                            en un problema cuando no se siguen
+                            ciertas reglas.
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                Ver detalles
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    Billy recibe como regalo una
+                                    pequeña criatura llamada Gizmo.
+
+                                </p>
+
+                                <p>
+
+                                    Pero existen reglas que deben
+                                    cumplirse. Cuando estas reglas
+                                    se rompen, aparecen criaturas
+                                    peligrosas que provocan el caos.
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 5
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/pelicula5.jpg"
+                            alt="El Karate Kid"
+                        >
+
+                        <span class="año-badge">
+                            1984
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            DRAMA • ARTES MARCIALES
+                        </p>
+
+
+                        <h3>
+                            El Karate Kid
+                        </h3>
+
+
+                        <p>
+
+                            Daniel aprende disciplina, confianza
+                            y karate bajo la guía del señor Miyagi.
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                Ver detalles
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    Daniel se muda a California
+                                    y tiene dificultades para
+                                    adaptarse a su nueva vida.
+
+                                </p>
+
+                                <p>
+
+                                    El señor Miyagi se convierte
+                                    en su maestro y le enseña que
+                                    el karate requiere paciencia,
+                                    disciplina y equilibrio.
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             LA DÉCADA
+             ===================================================== -->
+
+        <section id="decada">
+
+
+            <div class="decada-container">
+
+
+                <div class="decada-texto">
+
+                    <p class="section-number">
+                        02 / LA DÉCADA
+                    </p>
+
+
+                    <h2>
+
+                        La magia de los
+                        <span>80</span>
+
+                    </h2>
+
+
+                    <p>
+
+                        Los años 80 fueron una época inolvidable
+                        para el cine. Grandes historias, personajes
+                        icónicos, música y estilos que todavía forman
+                        parte de la cultura popular.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="decada-items">
+
+
+                    <div>
+
+                        <strong>🎬</strong>
+
+                        <span>
+                            Grandes historias
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>🎮</strong>
+
+                        <span>
+                            Cultura pop
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>📼</strong>
+
+                        <span>
+                            Era del VHS
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>✨</strong>
+
+                        <span>
+                            Estilo único
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             GALERÍA
+             ===================================================== -->
+
+        <section id="galeria">
+
+
+            <div class="section-title">
+
+                <div>
+
+                    <p class="section-number">
+                        03 / GALERÍA
+                    </p>
+
+
+                    <h2>
+
+                        Posters &
+                        <span>nostalgia</span>
+
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+
+            <!--
+                Esta galería utiliza únicamente
+                los posters de las películas.
+            -->
+
+            <div class="galeria-grid">
+
+
+                <div class="galeria-item">
+
+                    <img
+                        src="img/Pelicula1.jpg"
+                        alt="Teen Wolf"
+                        onclick="abrirImagen(this.src, this.alt)"
+                    >
+
+                </div>
+
+
+                <div class="galeria-item">
+
+                    <img
+                        src="img/Pelicula2.jpg"
+                        alt="Bloodsport"
+                        onclick="abrirImagen(this.src, this.alt)"
+                    >
+
+                </div>
+
+
+                <div class="galeria-item">
+
+                    <img
+                        src="img/pelicula3.jpg"
+                        alt="Los Cazafantasmas"
+                        onclick="abrirImagen(this.src, this.alt)"
+                    >
+
+                </div>
+
+
+                <div class="galeria-item">
+
+                    <img
+                        src="img/pelicula4.jpg"
+                        alt="Gremlins"
+                        onclick="abrirImagen(this.src, this.alt)"
+                    >
+
+                </div>
+
+
+                <div class="galeria-item">
+
+                    <img
+                        src="img/pelicula5.jpg"
+                        alt="El Karate Kid"
+                        onclick="abrirImagen(this.src, this.alt)"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!--
+                Ventana que muestra la imagen ampliada.
+            -->
+
+            <div
+                id="visor-imagen"
+                class="visor-imagen"
+                onclick="cerrarImagen()"
+            >
+
+                <!-- Botón para cerrar -->
+                <span class="cerrar">
+                    &times;
+                </span>
+
+
+                <!-- Imagen grande -->
+                <img
+                    id="imagen-grande"
+                    src=""
+                    alt=""
+                >
+
+
+                <!-- Nombre -->
+                <p id="nombre-imagen"></p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             CONTACTO
+             ===================================================== -->
+
+        <section id="contacto">
+
+
+            <div class="contacto-container">
+
+
+                <div>
+
+                    <p class="section-number">
+                        04 / CONTACTO
+                    </p>
+
+
+                    <h2>
+
+                        ¿Cuál es tu
+                        <span>película favorita?</span>
+
+                    </h2>
+
+
+                    <p>
+
+                        Comparte con nosotros tu película favorita
+                        de los años 80.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Formulario -->
+
+                <form id="formulario">
+
+                    <div class="form-row">
+
+
+                        <input
+                            type="text"
+                            placeholder="Nombre"
+                            required
+                        >
+
+
+                        <input
+                            type="email"
+                            placeholder="Correo electrónico"
+                            required
+                        >
+
+                    </div>
+
+
+                    <textarea
+                        placeholder="Escribe tu comentario..."
+                        required
+                    ></textarea>
+
+
+                    <button type="submit">
+
+                        Enviar mensaje →
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+
+            <div class="logo">
+
+                80s <span>CINEMA</span>
+
+            </div>
+
+
+            <p>
+
+                Cine que nunca pasa de moda.
+
+            </p>
+
+
+            <small>
+
+                Películas de los 80s © 2026
+
+            </small>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script>
+
+        /*
+            Esta función recibe la dirección de la imagen
+            y el nombre de la película.
+        */
+
+        function abrirImagen(imagen, nombre) {
+
+            /* Cambiamos la imagen del visor */
+
+            document.getElementById("imagen-grande").src = imagen;
+
+
+            /* Mostramos el nombre */
+
+            document.getElementById("nombre-imagen").textContent = nombre;
+
+
+            /* Mostramos la ventana */
+
+            document
+                .getElementById("visor-imagen")
+                .classList.add("mostrar");
+
+        }
+
+
+        /*
+            Esta función cierra la imagen.
+        */
+
+        function cerrarImagen() {
+
+            document
+                .getElementById("visor-imagen")
+                .classList.remove("mostrar");
+
+        }
+
+
+        /*
+            También podemos cerrar la imagen
+            utilizando la tecla ESC.
+        */
+
+        document.addEventListener("keydown", function(event) {
+
+            if (event.key === "Escape") {
+
+                cerrarImagen();
+
+            }
+
+        });
+
+
+        /*
+            Evitamos que el formulario recargue
+            la página al presionar enviar.
+        */
+
+        document
+            .getElementById("formulario")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+                alert("¡Gracias por tu mensaje!");
+
+                this.reset();
+
+            });
+
+    </script>
+
+
+</body>
+
+</html>
